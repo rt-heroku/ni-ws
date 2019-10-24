@@ -1,0 +1,22 @@
+{
+  "addons": [
+    "papertrail",
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ],
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "ni-ws",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
